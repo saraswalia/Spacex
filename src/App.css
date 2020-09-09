@@ -1,100 +1,97 @@
 .App {
-  background-color:#F5F5F5;
+	background-color: #f5f5f5;
 }
-.Header{
-  margin-left: 20px;
+.Header {
+	margin-left: 20px;
 }
-.Body{
-  display: flex;
-  width: 100%;
+.Body {
+	display: flex;
+	width: 100%;
 }
-.SideMenu{
-  background-color: white;
-  width: 23.6%;
-  margin: 0vw 1vw 0vw 1vw;
+.SideMenu {
+	background-color: white;
+	width: 23.6%;
+	margin: 0vw 1vw 0vw 1vw;
 }
-.CardContainer{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+.CardContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 }
-.title{
-  color: darkblue;
-  text-align: center;
-  padding: 0vw 2vw 1vw 2vw;
+.title {
+	color: darkblue;
+	text-align: center;
+	padding: 0vw 2vw 1vw 2vw;
 }
-.cardTitle{
-  color: darkblue;
+.cardTitle {
+	color: darkblue;
 }
-.ButtonContainer{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0vw -1vw  0vw -1vw;
+.ButtonContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0vw -1vw 0vw -1vw;
 }
-.Button{
-  background-color:#00CC33;
-  color: black;
-  border-radius: 4px;
-  line-height: 150%;
-  width: 30%;
-  margin: 2%;
-  border: none;
-  outline: none;
-  cursor: pointer;
+.Button {
+	background-color: #00cc33;
+	color: black;
+	border-radius: 4px;
+	line-height: 150%;
+	width: 30%;
+	margin: 2%;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
-.card{
-  background-color: white;
-  width: 23.6%;
-  margin: 0vw 0.5vw 1vw 0.5vw;
+.card {
+	background-color: white;
+	width: 23.6%;
+	margin: 0vw 0.5vw 1vw 0.5vw;
 }
-.cardBody{
-padding: 0% 10% 10% 10%;
+.cardBody {
+	padding: 0% 10% 10% 10%;
 }
-.Image{
-  background-color:#F5F5F5;
-  margin: 1vw 1vw 1vw 1vw;
-  display: flex;
-  justify-content: center;
-  min-height: 8vw;
+.Image {
+	background-color: #f5f5f5;
+	margin: 1vw 1vw 1vw 1vw;
+	display: flex;
+	justify-content: center;
+	min-height: 8vw;
 }
-.ButtonActive{
-  background-color:#006633;
+.ButtonActive {
+	background-color: #006633;
 }
-.answer{
-  color: darkblue;
+.answer {
+	color: darkblue;
 }
-.Name{
-  display: flex;
-  justify-content: center;
-  margin: 2vw;
-  height: 4vw;
-  color: darkblue;
-}
-
-@media screen and (max-device-width:1024px) {
-  .card{
-    width: 47%;
-    margin: 0vw 0vw 1vw 0.5vw;
-  }
-  .SideMenu{
-    width: 47%;
-    margin: 0vw 1vw 0vw 1vw;
-  }
-}
-@media screen and (max-device-width:700px) {
-  .Body{
-    flex-direction: column;
-  }
-  .CardContainer{
-    flex-direction: column;
-  }
-  .card{
-    width: 98%;
-  }
-  .SideMenu{
-    width: 98%;
-  }
+.Name {
+	display: flex;
+	justify-content: center;
+	margin: 2vw;
+	color: darkblue;
 }
 
-
+@media screen and (max-device-width: 1024px) {
+	.card {
+		width: 47%;
+		margin: 0vw 0vw 1vw 0.5vw;
+	}
+	.SideMenu {
+		width: 47%;
+		margin: 0vw 1vw 0vw 1vw;
+	}
+}
+@media screen and (max-device-width: 700px) {
+	.Body {
+		flex-direction: column;
+	}
+	.CardContainer {
+		flex-direction: column;
+	}
+	.card {
+		width: 98%;
+	}
+	.SideMenu {
+		width: 98%;
+	}
+}
