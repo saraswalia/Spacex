@@ -89,7 +89,7 @@ function App() {
               return (
                 <div className="card">
                   <div className="Image">
-                    <img src={card.links.mission_patch} alt="Card Logo" width="100" height="100"></img>
+                    <img src={card.links.mission_patch} alt="Card Logo" width="200" height="200"></img>
                   </div>
                   <div className="cardBody">
                     <div className="cardTitle">
